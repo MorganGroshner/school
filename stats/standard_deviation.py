@@ -27,7 +27,7 @@ def calc_standard_deviation(data, mean1):
     print ("Population standard deviation is: " + str(population_standard_deviation))
 
 
-to_parse = input("Enter numbers serpated by commas: ")
+to_parse = input("Enter numbers separated by commas: ")
 raw_data = str(to_parse).split(',')
 calc_mean(raw_data)
 calc_standard_deviation(raw_data, mean)
